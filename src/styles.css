@@ -1,4 +1,12 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
+.card-collection{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.card-selected{
+    border: 3px solid #000;
+
+}
+h1, h2, h3, h4, h5, h6,p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
